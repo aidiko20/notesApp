@@ -26,6 +26,7 @@ body {
 
 .note {
   background-color: white;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
   margin: 20px;
   width: 400px;
   height: 400px;
@@ -48,9 +49,9 @@ body {
 }
 
 .note .main {
-    background-color: white;
+    background-color: #eee;
     overflow: hidden;
-    width: 400px;
+    width: 100%;
     height: 100%;
 }
 
@@ -59,7 +60,7 @@ body {
     font-size: 1.2rem;
     font-family: inherit;
     border: none;
-    height: 400px;
+    height: 100%;
     width: 100%;
 }
 
